@@ -12,6 +12,7 @@
 		BA8FDB432C4D32B600793507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8FDB422C4D32B600793507 /* Assets.xcassets */; };
 		BA8FDB462C4D32B600793507 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8FDB452C4D32B600793507 /* Preview Assets.xcassets */; };
 		BAA7F97D2C4D353B00C6ABC2 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA7F97C2C4D353B00C6ABC2 /* CameraManager.swift */; };
+		BAA7F97F2C4D35D900C6ABC2 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA7F97E2C4D35D900C6ABC2 /* PreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BA8FDB422C4D32B600793507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA8FDB452C4D32B600793507 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BAA7F97C2C4D353B00C6ABC2 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		BAA7F97E2C4D35D900C6ABC2 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				BA8FDB3E2C4D32B500793507 /* UsingTorchWithVideoDataOutputApp.swift */,
 				BA8FDB402C4D32B500793507 /* ContentView.swift */,
 				BAA7F97C2C4D353B00C6ABC2 /* CameraManager.swift */,
+				BAA7F97E2C4D35D900C6ABC2 /* PreviewView.swift */,
 				BA8FDB422C4D32B600793507 /* Assets.xcassets */,
 				BA8FDB442C4D32B600793507 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA8FDB412C4D32B500793507 /* ContentView.swift in Sources */,
+				BAA7F97F2C4D35D900C6ABC2 /* PreviewView.swift in Sources */,
 				BAA7F97D2C4D353B00C6ABC2 /* CameraManager.swift in Sources */,
 				BA8FDB3F2C4D32B500793507 /* UsingTorchWithVideoDataOutputApp.swift in Sources */,
 			);
