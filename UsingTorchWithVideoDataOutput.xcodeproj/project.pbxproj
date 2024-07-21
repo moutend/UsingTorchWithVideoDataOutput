@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA8FDB3F2C4D32B500793507 /* UsingTorchWithVideoDataOutputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8FDB3E2C4D32B500793507 /* UsingTorchWithVideoDataOutputApp.swift */; };
+		BA8FDB3F2C4D32B500793507 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8FDB3E2C4D32B500793507 /* App.swift */; };
 		BA8FDB412C4D32B500793507 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8FDB402C4D32B500793507 /* ContentView.swift */; };
 		BA8FDB432C4D32B600793507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8FDB422C4D32B600793507 /* Assets.xcassets */; };
 		BA8FDB462C4D32B600793507 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8FDB452C4D32B600793507 /* Preview Assets.xcassets */; };
@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		BA8FDB3B2C4D32B500793507 /* UsingTorchWithVideoDataOutput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingTorchWithVideoDataOutput.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA8FDB3E2C4D32B500793507 /* UsingTorchWithVideoDataOutputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingTorchWithVideoDataOutputApp.swift; sourceTree = "<group>"; };
+		BA8FDB3E2C4D32B500793507 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		BA8FDB402C4D32B500793507 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA8FDB422C4D32B600793507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA8FDB452C4D32B600793507 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		BA8FDB3D2C4D32B500793507 /* UsingTorchWithVideoDataOutput */ = {
 			isa = PBXGroup;
 			children = (
-				BA8FDB3E2C4D32B500793507 /* UsingTorchWithVideoDataOutputApp.swift */,
+				BA8FDB3E2C4D32B500793507 /* App.swift */,
 				BA8FDB402C4D32B500793507 /* ContentView.swift */,
 				BAA7F97C2C4D353B00C6ABC2 /* CameraManager.swift */,
 				BAA7F97E2C4D35D900C6ABC2 /* PreviewView.swift */,
@@ -174,7 +174,7 @@
 				BAA7F97D2C4D353B00C6ABC2 /* CameraManager.swift in Sources */,
 				BAA7F9822C4D370E00C6ABC2 /* MobileNetV2FP16.mlmodel in Sources */,
 				BAA7F9842C4D37A300C6ABC2 /* ImageClassifier.swift in Sources */,
-				BA8FDB3F2C4D32B500793507 /* UsingTorchWithVideoDataOutputApp.swift in Sources */,
+				BA8FDB3F2C4D32B500793507 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
