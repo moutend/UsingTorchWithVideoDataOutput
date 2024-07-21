@@ -13,6 +13,7 @@
 		BA8FDB462C4D32B600793507 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8FDB452C4D32B600793507 /* Preview Assets.xcassets */; };
 		BAA7F97D2C4D353B00C6ABC2 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA7F97C2C4D353B00C6ABC2 /* CameraManager.swift */; };
 		BAA7F97F2C4D35D900C6ABC2 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA7F97E2C4D35D900C6ABC2 /* PreviewView.swift */; };
+		BAA7F9822C4D370E00C6ABC2 /* MobileNetV2FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BAA7F9812C4D370E00C6ABC2 /* MobileNetV2FP16.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		BA8FDB452C4D32B600793507 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BAA7F97C2C4D353B00C6ABC2 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
 		BAA7F97E2C4D35D900C6ABC2 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		BAA7F9812C4D370E00C6ABC2 /* MobileNetV2FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2FP16.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 		BA8FDB322C4D32B500793507 = {
 			isa = PBXGroup;
 			children = (
+				BAA7F9802C4D36C500C6ABC2 /* Model */,
 				BA8FDB3D2C4D32B500793507 /* UsingTorchWithVideoDataOutput */,
 				BA8FDB3C2C4D32B500793507 /* Products */,
 			);
@@ -71,6 +74,14 @@
 				BA8FDB452C4D32B600793507 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BAA7F9802C4D36C500C6ABC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAA7F9812C4D370E00C6ABC2 /* MobileNetV2FP16.mlmodel */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 				BA8FDB412C4D32B500793507 /* ContentView.swift in Sources */,
 				BAA7F97F2C4D35D900C6ABC2 /* PreviewView.swift in Sources */,
 				BAA7F97D2C4D353B00C6ABC2 /* CameraManager.swift in Sources */,
+				BAA7F9822C4D370E00C6ABC2 /* MobileNetV2FP16.mlmodel in Sources */,
 				BA8FDB3F2C4D32B500793507 /* UsingTorchWithVideoDataOutputApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
